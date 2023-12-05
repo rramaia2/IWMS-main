@@ -1,0 +1,159 @@
+/* CSS - Variant 1 */
+/* Background: Orange */
+/* Text Color: White */
+/* Accent Color: Grey */
+/* Main Color: Dark Blue */
+/* Footer Color: Black */
+
+/* Your existing dashboard styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #FFA500; /* Orange */
+    padding: 10px;
+    color: #fff; /* White */
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    width: 50px;
+  }
+  
+  /* ... */
+  .user-profile {
+    position: relative; /* Required to position the dropdown */
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .user-profile-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .logout-content {
+    background: #000;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .logout-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .logout-content li {
+    cursor: pointer;
+  }
+  
+  .logout-content a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .logout-content a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ... */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .table-container,
+  .graph-container {
+    flex: 1;
+  }
+  
+  .sidebar button {
+    padding: 8px 15px;
+    font-size: 18px;
+    border: 1px solid #00008B; /* Dark Blue */
+    background-color: #00008B;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 90%;
+  }
+  element.style {
+    padding: 15px;
+}
+  
+  .content-area {
+    padding: 20px;
+    background-color: #ecf0f1;
+    color: #333;
+    width: 100%;
+  }
+  
+  .main-content {
+    display: flex;
+  }
+  .contact-section{
+    padding:15px;
+  }
+  
+  .canvas-container {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+  }
+  
+  canvas {
+    width: 100%;
+    height: 400px; /* Make the canvas responsive *//* Maintain aspect ratio */
+  }
+  
+  .sidebar {
+    width: 260px;
+    background: #808080;
+    color: #fff;
+    padding: 10px;
+    height: 559px;
+}
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 6px;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  footer.bottom {
+    background-color: #000; /* Black */
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  footer.bottom a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer.bottom a:hover {
+    text-decoration: underline;
+  }
+  

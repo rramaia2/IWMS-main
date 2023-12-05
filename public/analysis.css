@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for the header to match the dashboard */
+  .header {
+    background-color: #FFA500; /* Orange */
+    padding: 10px;
+    color: #fff; /* White */
+  }
+  
+  .header h1 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    width: 50px;
+  }
+  
+  .user-profile {
+    position: relative; /* Required to position the dropdown */
+    align-items: center;
+    color: #fff;
+    display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+  }
+  
+  .user-profile-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .logout-content {
+    /* display: none; */
+    
+    background: #000;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .logout-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .logout-content li {
+    cursor: pointer;
+  }
+  
+  .logout-content a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .logout-content a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styles for the sidebar to match the dashboard */
+  .main-content {
+    display: flex; /* Ensuring main-content behaves as a flex container */
+  }
+  
+  .sidebar {
+    background-color: #1C2833; /* Even darker blue for contrast */
+    padding: 1rem;
+    width: 250px;
+   
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 6px;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .content-area {
+    padding: 20px;
+    background-color: #ecf0f1;
+    color: #333;
+    width: 100%
+  }
+  .header {
+    background-color: #FFA500; /* Orange from dashboard */
+    padding: 10px;
+    color: #fff; /* White from dashboard */
+  }
+  #ordersTable {
+    width: 30%;
+    border-collapse: collapse;
+}
+
+#ordersTable, #ordersTable th, #ordersTable td {
+    border: 1px solid black;
+}
+
+#ordersTable th, #ordersTable td {
+    padding: 10px;
+    text-align: left;
+}
+  /* To match the sidebar button styles from dashboard */
+  .sidebar button {
+    padding: 8px 15px;
+    font-size: 18px;
+    border: 1px solid #00008B; /* Dark Blue from dashboard */
+    background-color: #00008B;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 90%;
+  }
+  footer.bottom {
+    background-color: #000; /* Black */
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  footer.bottom a {
+    color: #fff;
+
+    text-decoration: none;
+  }
+  
+  footer.bottom a:hover {
+    text-decoration: underline;
+  }
+  
